@@ -1,0 +1,60 @@
+/* Estilos para el archivo XML */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+pais {
+    display: block;
+    margin-bottom: 40px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+departamento {
+    display: block;
+    margin: 15px 0;
+    margin-top: 8px;
+    padding: 15px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+cabecera {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #007bff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+habitantes, altura, patrono, gentilicio, Alcalde {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+/* Asegura que patrono, gentilicio, y Alcalde estén en líneas separadas */
+patrono, gentilicio, Alcalde {
+    display: block; /* Esto hace que cada elemento se muestre en una línea separada */
+    font-style: italic;
+    color: #666;
+}
+
+departamento .patrono::before,
+.departamento .gentilicio::before,
+.departamento .Alcalde::before {
+    content: '• ';
+    color: #007bff;
+    font-weight: bold;
+}

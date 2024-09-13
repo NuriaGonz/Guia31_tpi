@@ -1,0 +1,33 @@
+{
+  "fichero": {
+    "ficha": [
+      {
+        "nombre": "Antonio",
+        "apellido": "Barbero",
+        "direccion": "Calle de Los Andes, 45"
+      },
+      {
+        "nombre": "Nuria",
+        "apellido": "Martínez",
+        "direccion": "Calle el Porvenir",
+        "municipio": "Cuscatancingo",
+        "telefono": "7651-7319",
+        "email": "gm18038@ues.edu.sv"
+      },
+      {
+        "nombre": "Nuria",
+        "apellido": "Martínez",
+        "direccion": "Calle el Porvenir",
+        "municipio": "Mejicanos",
+        "departamento": "San Salvador",
+        "telefono": "7351-7419",
+        "email": "gm18038@ues.edu.sv",
+        "dui": "06073672-0",
+        "isss": 2000034201,
+        "afp": "uk9384"
+      }
+    ],
+    "pregunta": "¿A partir del ejemplo 1 y ejercicios desarrollados hasta el momento que puede concluir?",
+    "comentarios": "Puedo concluir que las etiquetas que se usen para los distintos atributos dentro del archivo xmln no tienen que seguir algún patron especifico o algún lenguaje especifico sino que se adaptan a las necesidades del usuario, solo es necesario crear las etiquetas de apertura y cierre para que no ocurra ningún inconveniente, además la aplicación xml copy editor deja que se pueda verificar que nuestro documento esta bien formado."
+  }
+}

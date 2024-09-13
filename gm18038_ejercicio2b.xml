@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="gm18038_ejemplo2b.css" ?>
+<!-- ejemplo2.xml  SUCARNET -->
+<pais nombre="El Salvador">
+<departamento id="1" nombre="San Salvador">
+<cabecera>San Salvador</cabecera>
+<habitantes>1,700,000</habitantes>
+<altura>545 MSNM</altura>
+</departamento>
+
+<departamento id="2" nombre="Santa Ana">
+<cabecera>Santa Ana Centro</cabecera>
+<habitantes>264,091</habitantes>
+<altura>665 MSNM</altura>
+<patrono>Señora de Santa Ana</patrono>
+<gentilicio>Santaneco</gentilicio>
+<Alcalde>Gustavo acevedo</Alcalde>
+</departamento>
+
+<departamento id="3" nombre="San miguel">
+<cabecera>San Miguel</cabecera>
+<habitantes>693,562</habitantes>
+<altura>129 MSNM</altura>
+<patrono>Nuestra señora de la paz</patrono>
+<gentilicio>Migueleño</gentilicio>
+<Alcalde>Alexander Torres</Alcalde>
+</departamento>
+
+<pregunta>¿A partir del ejemplo 2 y ejercicios desarrollados hasta el momento que puede concluir?</pregunta>
+<comentarios>Dentro de cada elemento se pueden agregar diferentes atributos, siempre siguiendo las reglas de xml como el abrir y cerrar cada etiqueta de atributos.</comentarios>
+
+  <documento xml:lang="es">
+	<división>
+		<párrafo><a xmlns="http://www.w3.org/1999/xhtml" href="index.html">Regresar</a></párrafo>
+	</división>
+</documento>
+
+</pais>

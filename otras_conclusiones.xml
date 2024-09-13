@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="otras_conclusiones.css" ?>
+<document>
+    <section id="conclusiones">
+        <title>Conclusiones</title>
+        <subsection id="conversion">
+            <title>Conclusión sobre la Conversión de XML a JSON</title>
+            <p>A partir de los ejercicios desarrollados en esta sección II.3, se puede concluir que al realizar la conversión de los archivos XML a JSON se pueden comprobar si están correctos en una consola de JavaScript. Además, el uso de la herramienta de conversión es muy útil, ya que ahorra tiempo de escritura.</p>
+        </subsection>
+        <subsection id="css">
+            <title>Conclusión sobre el Uso de CSS</title>
+            <p>A partir de los ejemplos y ejercicios CSS desarrollados, concluyo que el uso de CSS le da una mejor vistosidad a los archivos XML, lo cual ayuda a que se vea un trabajo limpio. Aunque no sean los archivos que estamos acostumbrados a trabajar en HTML, no se puede notar mayor diferencia si se observan desde un navegador.</p>
+        </subsection>
+    </section>
+    
+       <documento xml:lang="es">
+	<división>
+			<párrafo><a href="index.html" xmlns="http://www.w3.org/1999/xhtml">Regresar</a></párrafo>
+	</división>
+</documento>
+</document>

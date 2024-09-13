@@ -1,0 +1,19 @@
+{
+  "pais": {
+    "departamento": [
+      {
+        "cabecera": "San Salvador",
+        "habitantes": "1,700,000",
+        "altura": "545 MSNM"
+      },
+      {
+        "cabecera": "Santa Ana Centro",
+        "habitantes": "264,091",
+        "altura": "665 MSNM",
+        "patrono": "Señora de Santa Ana",
+        "gentilicio": "Santaneco",
+        "Alcalde": "Gustavo acevedo"
+      }
+    ]
+  }
+}

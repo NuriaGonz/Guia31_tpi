@@ -1,0 +1,86 @@
+/* Estilo general del documento */
+fichero {
+    display: block;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para cada ficha */
+ficha {
+    display: block;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.3s ease;
+}
+
+ficha:hover {
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el nombre */
+nombre {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el apellido */
+apellido {
+    font-size: 1.2em;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para la dirección */
+direccion {
+    font-style: italic;
+    color: #777;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el municipio */
+municipio {
+    font-size: 1em;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el teléfono */
+telefono {
+    font-size: 1em;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el email */
+email {
+    font-size: 1em;
+    color: #28a745;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para la fecha de ingreso */
+ficha[fechaingreso]::before {
+    content: "Fecha de Ingreso: " attr(fechaingreso);
+    font-size: 0.9em;
+    color: #888;
+    display: block;
+    margin-bottom: 10px;
+}

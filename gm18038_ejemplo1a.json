@@ -1,0 +1,19 @@
+{
+    "fichero": {
+      "ficha": [
+        {
+          "nombre": "Antonio",
+          "apellido": "Barbero",
+          "direccion": "Calle de Los Andes, 45"
+        },
+        {
+          "nombre": "Nuria",
+          "apellido": "Martínez",
+          "direccion": "Calle el Porvenir",
+          "municipio": "Cuscatancingo",
+          "telefono": "7651-7319",
+          "email": "gm18038@ues.edu.sv"
+        }
+      ]
+    }
+  }

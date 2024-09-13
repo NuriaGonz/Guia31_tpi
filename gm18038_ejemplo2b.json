@@ -1,0 +1,29 @@
+{
+  "pais": {
+    "departamento": [
+      {
+        "cabecera": "San Salvador",
+        "habitantes": "1,700,000",
+        "altura": "545 MSNM"
+      },
+      {
+        "cabecera": "Santa Ana Centro",
+        "habitantes": "264,091",
+        "altura": "665 MSNM",
+        "patrono": "Señora de Santa Ana",
+        "gentilicio": "Santaneco",
+        "Alcalde": "Gustavo acevedo"
+      },
+      {
+        "cabecera": "San Miguel",
+        "habitantes": "693,562",
+        "altura": "129 MSNM",
+        "patrono": "Nuestra señora de la paz",
+        "gentilicio": "Migueleño",
+        "Alcalde": "Alexander Torres"
+      }
+    ],
+    "pregunta": "¿A partir del ejemplo 2 y ejercicios desarrollados hasta el momento que puede concluir?",
+    "comentarios": "Dentro de cada elemento se pueden agregar diferentes atributos, siempre siguiendo las reglas de xml como el abrir y cerrar cada etiqueta de atributos."
+  }
+}

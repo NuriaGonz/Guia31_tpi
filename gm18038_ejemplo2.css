@@ -1,0 +1,36 @@
+/* Estilos para el archivo XML */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #070101;
+    background-color: #d66767;
+}
+
+pais {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #f3c7f0;
+    border-radius: 4px;
+    background-color: #d3b0d1;
+}
+
+departamento {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #9f9797;
+    border-radius: 4px;
+    background-color: #b4d6f8;
+}
+
+cabecera {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #924118;
+}
+
+habitantes, altura {
+    font-size: 1em;
+    color: #8d628e;
+}

@@ -1,0 +1,122 @@
+/* Estilo general del fichero */
+fichero {
+    display: block;
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+/* Estilo para cada ficha */
+ficha {
+    display: block;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 6px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+ficha:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para el nombre */
+nombre {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el apellido */
+apellido {
+    font-size: 1.5em;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para la dirección */
+direccion {
+    font-style: italic;
+    color: #777;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el municipio */
+municipio {
+    font-size: 1em;
+    color: #007bff;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el departamento */
+departamento {
+    font-size: 1em;
+    color: #6c757d;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el teléfono */
+telefono {
+    font-size: 1em;
+    color: #28a745;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para el email */
+email {
+    font-size: 1em;
+    color: #17a2b8;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para DUI, ISSS, AFP */
+dui, isss, afp {
+    font-size: 1em;
+    color: #dc3545;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo para la fecha de ingreso */
+ficha[fechaingreso]::before {
+    content: "Fecha de Ingreso: " attr(fechaingreso);
+    font-size: 0.9em;
+    color: #6c757d;
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* Estilo para la pregunta */
+pregunta {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    display: block;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+/* Estilo para los comentarios */
+comentarios {
+    font-size: 1em;
+    color: #555;
+    padding: 10px;
+    margin-top: 10px;
+}
+
