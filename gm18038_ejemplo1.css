@@ -1,4 +1,4 @@
 /* gm18038-ejemplo1.css   GM18038  */
-fichero {background-color:rgb(136, 136, 250);}
+fichero {background-color:rgb(182, 212, 248);}
 ficha {background-color:red; display:block;} nombre {color:white; display:inline;} apellido {color:yellow; display:inline;}
 direccion {color:yellow;font-size:1cm; display:none;}
